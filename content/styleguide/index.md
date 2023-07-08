@@ -1,7 +1,7 @@
 ---
 title: "Styleguide"
 date: 2023-07-08T23:11:48+02:00
-draft: false
+draft: true
 theme: cloudsty
 ---
 

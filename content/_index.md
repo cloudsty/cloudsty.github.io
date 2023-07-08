@@ -6,5 +6,3 @@ html: true
 ---
 
 ![](Cloudsty.svg "Cloudsty")
-
-[Go to style guide](/styleguide/)
