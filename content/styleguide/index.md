@@ -18,3 +18,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis.
 ##### Title 5
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis.
+
+[Go home](/)
