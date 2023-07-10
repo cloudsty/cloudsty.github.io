@@ -1,9 +1,9 @@
 ---
-title: "About"
+title: "Style Guide"
 date: 2021-12-18T11:10:36+08:00
 draft: false
 language: en
-description: About Us
+description: Style guide
 featured_image: ../assets/images/featured/featured-img-placeholder.png
 ---
 
