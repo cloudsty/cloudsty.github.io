@@ -1,5 +1,5 @@
 baseURL: ''
-title: Cloudsty
+title: Cloudsty Instant Sensors
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -15,13 +15,14 @@ params:
   author: Cloudsty
   authorimage: ../assets/images/global/author.webp
   og_image: /images/Cloudsty-chart.jpg
-  moto: "Instant Sensors"
-  description: "Bezpieczne i wydajne monitorowanie urządzeń IoT z wykorzystaniem ML"
+  moto: "Monitorowanie urządzeń IoT z wykorzystaniem ML"
+  description: "Monitorowanie urządzeń IoT z wykorzystaniem ML"
+  C2A: "Nasze wdrożenia"
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
   p1:
-    heading: "Our mission"
+    heading: "Platforma Cloudsty IS"
     image: "images/pages/our-mission.png"
     content:
       - text: "Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae."
