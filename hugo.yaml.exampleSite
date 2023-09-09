@@ -13,7 +13,7 @@ enableInlineShortcodes: true
 
 params:
   author: Nusser Studios
-  authorimage: ../assets/images/global/author.webp
+  authorimage: ../assets/images/global/CloudstySygnet.jpg
   og_image: /images/tailbliss-cover.png
   moto: "Super Fast, and Flexible"
   description: "A Hugo theme built with love, using TailwindCSS 3, Alpine.JS, and Hugo Pipes. Images are optimized for use with Hugo Pipes for WebP format."
@@ -134,9 +134,9 @@ menu:
       name: Blog
       url: /categories/blog/
       weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
+    - identifier: realizacje
+      name: Realizacje
+      url: /categories/realizacje/
       weight: 30
     - identifier: prose
       name: Prose

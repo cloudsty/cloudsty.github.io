@@ -1,7 +1,7 @@
 <p align="center" style="padding-top:20px">
  <img width="100px" src="images/logo-tailbliss-round.svg" align="center" alt="GitHub Readme Stats" />
- <h1 align="center">TailBliss</h1>
- <p align="center">TailBliss is an opinionated Hugo Starter with Tailwind CSS 3.2 and Alpine.js with light/dark modes.</p>
+ <h1 align="center">Cloudsty</h1>
+ <p align="center">Cloudsty is an opinionated Hugo Starter with Tailwind CSS 3.2 and Alpine.js with light/dark modes.</p>
 </p>
   <p align="center">
     <a href="https://github.com/nusserstudios/tailbliss/actions/">

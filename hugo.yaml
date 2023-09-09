@@ -1,7 +1,7 @@
-baseURL: ''
+baseURL: 'https://cloudsty.io'
 title: Cloudsty Instant Sensors
-languageCode: en-us
-DefaultContentLanguage: en
+languageCode: pl-PL
+DefaultContentLanguage: pl
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
@@ -13,7 +13,7 @@ enableInlineShortcodes: true
 
 params:
   author: Cloudsty
-  authorimage: ../assets/images/global/author.webp
+  authorimage: ../assets/images/global/CloudstySygnet.jpg
   og_image: /images/Cloudsty-chart.jpg
   moto: "Monitorowanie urządzeń IoT z wykorzystaniem ML"
   description: "Monitorowanie urządzeń IoT z wykorzystaniem ML"
@@ -50,7 +50,7 @@ params:
       - identifier: e
       - identifier: f
   p4:
-    heading: "Company news-beat"
+    heading: "Company realizacje-beat"
     content:
       - text: "Read more about our product and its implementations."
   p5:
@@ -68,7 +68,10 @@ params:
       url: 'https://github.com/cloudsty'
     facebook:
       enabled: true
-      url: 'https://facebook.com/cloudsty'
+      url: 'https://www.facebook.com/cloudstyio'
+    linkedin:
+      enabled: true
+      url: 'https://linkedin.com/company/cloudsty'
     # instagram:
     #   enabled: false
     #   url: 'https://instagram.com/nusserstudios'
@@ -79,35 +82,26 @@ params:
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
+    - identifier: platforma
+      name: Platforma Cloudsty IS
+      url: /platforma/
       weight: 10
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: cennik
+      name: Cennik
+      url: /cennik/
       weight: 20
-    - identifier: categories
-      pre: dropdown
-      name: Categories
+    - identifier: realizacje
+      name: Realizacje
+      url: /tags/realizacje/
       weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
+    - identifier: blog
+      name: Blog
+      url: /tags/blog/
       weight: 40
-    - identifier: contact
-      name: Contact
-      url: /contact/
+    - identifier: kontakt
+      name: Kontakt
+      url: /kontakt/
       weight: 50
-  categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
   dropdown:
     - identifier: appearance
       pre: stars # can be stars, comments or piechart
@@ -128,25 +122,25 @@ menu:
       url: "#"
       weight: 30
   footer:
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: platforma
+      name: Platforma Cloudsty IS
+      url: /platforma/
       weight: 10
+    - identifier: cennik
+      name: Cennik
+      url: /cennik/
+      weight: 20
+    - identifier: realizacje
+      name: Realizacje
+      url: /tags/realizacje/
+      weight: 30
     - identifier: blog
       name: Blog
-      url: /categories/blog/
-      weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
-      weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
+      url: /tags/blog/
       weight: 40
-    - identifier: contact
-      name: Contact
-      url: /contact/
+    - identifier: kontakt
+      name: Kontakt
+      url: /kontakt/
       weight: 50
 
 markup:
@@ -155,7 +149,7 @@ markup:
       unsafe: true
 
 taxonomies:
-  category: Categories
+  category: categories
   tag: Tags
 
 privacy:
