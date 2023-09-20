@@ -1,257 +1,36 @@
 ---
-title: "Realizacje Post 1"
+title: "Monitorowanie obrabiarek CNC"
 date: 2023-05-18T11:10:36+08:00
 draft: false
-language: en
+language: pl
 featured_image: ../assets/images/featured/featured-img-placeholder.png
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.
+summary: Wdrożenie Monitoringu IoT Maszyn CNC - Optymalizacja Produkcji Dzięki Cloudsty IoT
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero. Vestibulum vel convallis felis. Ut finibus lorem vestibulum lobortis rhoncus.
 author: Cloudsty
 authorimage: ../assets/images/global/CloudstySygnet.jpg
 categories: Realizacje
 tags: Realizacje
 ---
-__Advertisement :smile:__
 
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
-  resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
+Wprowadzenie technologii Cloudsty IoT do monitorowania maszyn CNC może wydawać się zadaniem skomplikowanym, ale istnieją prostsze rozwiązania, które pozwalają na to w sposób wydajny. Jednym z tych rozwiązań jest wykorzystanie protokołu OPC UA do komunikacji z kontrolerem maszyny CNC. W tym artykule omówimy przykład wdrożenia monitoringu IoT w kontekście maszyn CNC.
 
-You will like those projects!
+## Dane Zbierane z Maszyn CNC
 
----
+Podczas tego konkretnego wdrożenia, dane zbierane z maszyn CNC obejmowały:
 
-# h1 Heading :blush:
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+## Występujące Alarmy
 
+Wszystkie zdarzenia alarmowe generowane przez maszynę są przesyłane do platformy Cloudsty IoT w celu analizy. Cyklicznie generowane są raporty, które pomagają zidentyfikować najczęstsze problemy. Analiza danych alarmowych pozwala również na bardziej szczegółową analizę sytuacji awaryjnych, uwzględniając informacje takie jak operator, godzina, dzień tygodnia, rodzaj obrabianego detalu oraz używane narzędzia.
 
-## Horizontal Rules
+## Zalogowany Operator
 
-***
+Informacje na temat aktualnie zalogowanego operatora maszyny pozwalają na szybkie obliczenie raportów dotyczących przepracowanych godzin, ilości wyprodukowanych elementów, wydajności pracy oraz jakości produkcji.
 
----
+## Wykonywany Program CNC
 
-___
+Kiedy maszyna uruchamia program CNC o określonej nazwie, wykonuje konkretne detale. Dzięki tym danym możemy łatwo obliczyć stopień obłożenia pracy maszyny, jej wydajność, koszty operacyjne oraz przychody generowane przez daną obrabiarkę.
 
+## Dostępność Danych Online
 
-## Typographic replacements
-
-Enable typographer option to see result.
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,,  -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-
-## Emphasis
-
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Strikethrough~~
-
-
-## Blockquotes
-
-
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
-
-
-## Lists
-
-Unordered
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- 19^th^
-- H~2~O
-
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
+Wszystkie te dane są dostępne przez aplikację webową, co umożliwia zarządowi firmy monitorowanie produkcji online. Dzięki temu można podejmować szybkie i trafne decyzje, w oparciu o rzeczywiste informacje na temat wydajności maszyn CNC.
+Podsumowując, wdrożenie monitoringu IoT maszyn CNC przy użyciu protokołu OPC UA znacząco zwiększyło kontrolę nad produkcją, ułatwiło identyfikowanie problemy na wczesnym etapie oraz optymalizować wydajność. To inwestycja w przyszłość produkcji pozwala zachować konkurencyjność na rynku przemysłowym.
