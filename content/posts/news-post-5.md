@@ -1,5 +1,5 @@
 ---
-title: "Realizacje Post 5"
+title: "Dostarczenie rozwiązania do monitorowania zużycia energii"
 date: 2023-03-18T11:10:36+08:00
 draft: false
 language: en

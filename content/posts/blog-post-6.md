@@ -1,257 +1,42 @@
 ---
-title: "Blog Post 6"
-date: 2021-12-18T11:10:36+08:00
+title: "Profesjonalizacja zachowań operatorów"
+date: 2023-07-18T11:10:36+08:00
 draft: false
 language: en
 featured_image: ../assets/images/featured/featured-img-placeholder.png
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.
+summary: Praca na budowie lub w fabryce często wymaga od pracowników niewykwalifikowanych wykonywania trudnych i niebezpiecznych zadań. Technologia może przyjść z pomocą!
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero. Vestibulum vel convallis felis. Ut finibus lorem vestibulum lobortis rhoncus.
 author: Cloudsty
 authorimage: ../assets/images/global/CloudstySygnet.jpg
 categories: blog
 tags: blog
 ---
-__Advertisement :smile:__
 
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
-  resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
-
-You will like those projects!
-
----
-
-# h1 Heading :blush:
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
-
-
-## Horizontal Rules
-
-***
-
----
-
-___
-
-
-## Typographic replacements
-
-Enable typographer option to see result.
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,,  -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-
-## Emphasis
-
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Strikethrough~~
-
-
-## Blockquotes
-
-
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
-
-
-## Lists
-
-Unordered
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- 19^th^
-- H~2~O
-
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
+## IoT i Technologia Wspierają Pracowników Niewykwalifikowanych na Budowach i w Fabrykach
+
+Praca na budowie lub w fabryce często wymaga od pracowników niewykwalifikowanych wykonywania trudnych i niebezpiecznych zadań. Dzięki rosnącym postępom w technologii, Internet Rzeczy (IoT) oraz różne inne technologie stają się ważnym narzędziem do zwiększenia bezpieczeństwa, efektywności i wydajności pracowników niewykwalifikowanych na placach budowy i w halach produkcyjnych. W tym artykule przyjrzymy się dziesięciu przykładom, w jaki sposób IoT i technologia wspierają pracowników w tych trudnych warunkach.
+
+1. Inteligentne Wyposażenie Ochronne:<br>
+IoT umożliwia monitorowanie i lokalizację pracowników na budowie poprzez noszenie inteligentnych kasków, kamizelek lub okularów ochronnych z wbudowanymi sensorami. W przypadku zagrożenia, systemy te mogą wysyłać alarmy i ostrzeżenia.
+2. Monitoring Jakości Powietrza:<br>
+W fabrykach i halach produkcyjnych, IoT pozwala na monitorowanie jakości powietrza i poziomów toksycznych substancji. Pracownicy niewykwalifikowani mogą unikać niebezpiecznych obszarów lub otrzymywać alerty o konieczności ewakuacji.
+3. Zautomatyzowane Maszyny i Roboty:<br>
+Roboty i maszyny sterowane za pomocą IoT mogą wykonywać trudne i niebezpieczne zadania, pozostawiając pracownikom bardziej kreatywne i mniej ryzykowne zadania.
+4. Wearable Tech i Pomoc w Szkoleniu:<br>
+Inteligentne urządzenia noszone przez pracowników mogą dostarczać wskazówek i instrukcji, pomagając niewykwalifikowanym pracownikom wykonywać skomplikowane czynności.
+5. Monitorowanie Zmęczenia i Wypalenia:<br>
+IoT pozwala na śledzenie parametrów fizycznych pracowników, takich jak tętno i temperatura ciała, co pozwala na monitorowanie zmęczenia i ryzyka wypalenia zawodowego.
+6. Lokalizacja i Śledzenie Narzędzi:<br>
+IoT pomaga w śledzeniu narzędzi i sprzętu na budowach, co zwiększa kontrolę nad dostępnością i wykorzystaniem niezbędnych narzędzi.
+7. Monitorowanie Ruchu i Bezpieczeństwa na Placu Budowy:<br>
+Kamery i czujniki IoT pozwalają na monitorowanie ruchu pracowników na placu budowy oraz wykrywanie niebezpiecznych sytuacji.
+8. Automatyzacja Zarządzania Dostawami:<br>
+IoT pomaga w zoptymalizowaniu dostaw i zarządzaniu magazynami, co eliminuje konieczność ręcznej pracy przy załadunku i rozładunku.
+9. Zarządzanie Zadaniami i Terminami:<br>
+Inteligentne systemy zarządzania projektami i zadaniami pomagają pracownikom niewykwalifikowanym w śledzeniu harmonogramów i terminów.
+10. Monitorowanie Warunków Pracy na Ekstremalnych Temperaturach:<br>
+IoT pozwala na monitorowanie temperatury i wilgotności w miejscach pracy na ekstremalnych warunkach, co pozwala na podjęcie działań w razie nadmiernego nagrzania lub wychłodzenia.
+
+## Podsumowanie
+
+IoT i technologia mają ogromny wpływ na poprawę warunków pracy pracowników niewykwalifikowanych na budowach i w fabrykach. Dzięki zastosowaniu inteligentnych urządzeń i monitorowaniu danych, firmy nie tylko zwiększają bezpieczeństwo, ale również poprawiają efektywność i wydajność pracowników. W miarę jak technologia rozwija się dalej, możemy spodziewać się coraz większej liczby innowacyjnych rozwiązań, które wpłyną pozytywnie na pracowników i przemysł jako całość.

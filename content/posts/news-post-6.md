@@ -1,6 +1,6 @@
 ---
-title: "Realizacje Post 6"
-date: 2023-03-18T11:10:36+08:00
+title: "Wdrożenie Predictive Maintenance w żurawiach wieżowych"
+date: 2023-06-18T11:10:36+08:00
 draft: false
 language: en
 featured_image: ../assets/images/featured/featured-img-placeholder.png
